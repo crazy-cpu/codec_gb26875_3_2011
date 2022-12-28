@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shootingfans/codec_gb26875_3_2011/constant"
-	"github.com/shootingfans/codec_gb26875_3_2011/utils"
+	"github.com/crazy-cpu/codec_gb26875_3_2011/constant"
+	"github.com/crazy-cpu/codec_gb26875_3_2011/utils"
 
 	"github.com/valyala/bytebufferpool"
 )
