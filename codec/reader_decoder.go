@@ -56,6 +56,8 @@ func (r *readerDecoder) cron() {
 			case <-r.close:
 				return
 			case r.C <- p:
+				//fmt.Printf("server1 serialId%d, appData:%x\n", p.Header.SerialId, p.AppData)
+				time.Sleep(200 * time.Millisecond)
 			}
 		}
 		if gerr == io.EOF {
